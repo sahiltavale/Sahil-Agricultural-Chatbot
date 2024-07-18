@@ -6,15 +6,15 @@ import requests
 #------------------------------------------------------
 
 with st.sidebar:
-    st.title('''       😎 KP APP 🤖        ''')
+    st.title('''       😎 Sahil Chatbot 🤖        ''')
     st.markdown("------------------")
     option = "About"
     st.markdown(f"<h3 style='text-align: center;'>{option}</h3>",unsafe_allow_html=True)
     st.markdown('''
-     Kundeshwar V. Pundalik believes that KP APP has the potential to revolutionize various industries, such as customer service, education, and entertainment.
+     Sahil S.M.Tavale believes that Sahil chatbot  has the potential to revolutionize various industries, such as customer service, education, and entertainment.
     💡 Note: No API key required!
     ''')
-    st.write('Made with ❤️ by Kundeshwar Pundalik 😍')
+    st.write('Made with ❤️ by Sahil S.M.Tavale 😍')
 
 
 
@@ -64,7 +64,7 @@ def prediction(Year, average_rain_fall_mm_per_year, pesticides_tonnes, avg_temp,
 st.title("Crop Yield Prediction")
 
 st.write("""
-## Input the following features to predict the crop yield:
+## Welcome to the Sahil Chatbot, please use this for your crop yeild predection
 """)
 st_lottie(loettir_2)
 Year = st.number_input("Year", min_value=1900, max_value=2100, value=2020)
