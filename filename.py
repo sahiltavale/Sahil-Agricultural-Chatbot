@@ -6,7 +6,7 @@ import requests
 #------------------------------------------------------
 
 with st.sidebar:
-    st.title('''       😎 Sahil Chatbot 🤖        ''')
+    st.title('''       😎 Sahil's Chatbot 🤖        ''')
     st.markdown("------------------")
     option = "About"
     st.markdown(f"<h3 style='text-align: center;'>{option}</h3>",unsafe_allow_html=True)
@@ -64,7 +64,7 @@ def prediction(Year, average_rain_fall_mm_per_year, pesticides_tonnes, avg_temp,
 st.title("Crop Yield Prediction")
 
 st.write("""
-## Welcome to the Sahil Chatbot, please use this for your crop yeild predection
+## 🌾🌾Welcome to the Sahil Chatbot,Enter your Data to Predict Crop Yield!
 """)
 st_lottie(loettir_2)
 Year = st.number_input("Year", min_value=1900, max_value=2100, value=2020)
